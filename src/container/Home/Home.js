@@ -3,7 +3,7 @@ import React from 'react';
 
 const Home = prope => {
 
-    return(<b>home</b>)
+    return(<b></b>)
 }
 
 

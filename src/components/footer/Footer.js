@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = prope => {
 
-    return(<b>Footer</b>)
+    return(<b></b>)
 }
 
 

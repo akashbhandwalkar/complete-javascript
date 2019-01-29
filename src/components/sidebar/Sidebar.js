@@ -1,9 +1,12 @@
 import React from 'react';
+import { connect } from 'react-redux';
+
 import './Sidebar.scss';
 
 class Sidebar extends React.Component {
 
     render() {
+        console.log('props', this.props);
         return(
 
         <div id="sidebar-wrapper">
@@ -39,5 +42,16 @@ class Sidebar extends React.Component {
     }
 }
 
+const mapStateToProps = state => ({
+    config: state.configReducer
+  });
+  
+  const mapDispatchToProps = dispatch => ({
+  })
+  
+  export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(Sidebar);
 
-export default Sidebar;
+// subscribe to siderbarReducer

@@ -12,8 +12,8 @@ class App extends Component {
 
         <Header />
         <div id="wrapper">
-        <Sidebar></Sidebar>
-        <MainContainer />
+          <Sidebar></Sidebar>
+            <MainContainer />
         </div>
         
         <Footer />

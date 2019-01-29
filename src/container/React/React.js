@@ -4,7 +4,7 @@ import  './../../components/sidebar/Sidebar.scss'
 class ReactComponent extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {};
     }
 
     render() {
